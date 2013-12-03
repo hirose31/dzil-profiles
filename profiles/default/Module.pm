@@ -85,7 +85,7 @@ fixme
 
 =back
 
-=head1 ENVIRONMENT
+=head1 ENVIRONMENT VARIABLES
 
 =over 4
 
