@@ -4,14 +4,14 @@ use strict;
 use warnings;
 use 5.008_005;
 
-our $VERSION = '0.01_01';
+our $VERSION = '0.001';
 
 use Class::Accessor::Lite (
     new => 0,
     rw  => [qw(name)],
     ro  => [qw(id)],
     wo  => [qw()],
-   );
+);
 # or
 # use Class::Accessor::Lite;
 # Class::Accessor::Lite->mk_accessors(qw(name));
