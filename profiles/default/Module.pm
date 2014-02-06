@@ -113,7 +113,7 @@ Used to determine the user's home directory.
 
 L<https://github.com/hirose31/{{$dist->name}}>
 
-    git clone git://github.com/hirose31/{{$dist->name}}.git
+    git clone https://github.com/hirose31/{{$dist->name}}.git
 
 patches and collaborators are welcome.
 
