@@ -77,13 +77,23 @@ To install this module, run the following commands:
 
 =head1 METHODS
 
+=head2 Class Methods
+
+=head3 B<new>(%args:Hash) :{{$name}}
+
+Creates and returns a new InfluxDB client instance. Dies on errors.
+
+%args is following:
+
 =over 4
 
-=item B<method_name>($message:Str)
-
-fixme
+=item hostname => Str ("127.0.0.1")
 
 =back
+
+=head2 Instance Methods
+
+=head3 B<method_name>($message:Str) :Bool
 
 =head1 ENVIRONMENT VARIABLES
 
