@@ -17,6 +17,7 @@ on configure => sub {
 };
 
 on develop => sub {
+    requires 'App::scan_prereqs_cpanfile', '0.09';
     requires 'Pod::Wordlist';
     requires 'Test::Fixme';
     requires 'Test::Kwalitee';
