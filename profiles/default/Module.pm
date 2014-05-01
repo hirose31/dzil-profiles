@@ -40,7 +40,7 @@ sub new {
 
 __END__
 
-=encoding utf-8
+=encoding utf8
 
 =begin html
 
@@ -142,3 +142,15 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut
+
+# for Emacsen
+# Local Variables:
+# mode: cperl
+# cperl-indent-level: 4
+# cperl-close-paren-offset: -4
+# cperl-indent-parens-as-block: t
+# indent-tabs-mode: nil
+# coding: utf-8
+# End:
+
+# vi: set ts=4 sw=4 sts=0 et ft=perl fenc=utf-8 ff=unix :
