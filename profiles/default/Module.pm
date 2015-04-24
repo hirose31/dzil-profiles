@@ -81,7 +81,7 @@ To install this module, run the following commands:
 
 =head3 B<new>(%args:Hash) :{{$name}}
 
-Creates and returns a new InfluxDB client instance. Dies on errors.
+Creates and returns a new {{$name}} client instance. Dies on errors.
 
 %args is following:
 
