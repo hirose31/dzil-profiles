@@ -3,6 +3,7 @@ package {{$name}};
 use strict;
 use warnings;
 use 5.008_005;
+use utf8;
 
 our $VERSION = '0.001';
 
