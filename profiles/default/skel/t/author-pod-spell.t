@@ -24,5 +24,4 @@ HIROSE
 Masaaki
 hirose31
 lib
-Foo
-Bar
+Str
