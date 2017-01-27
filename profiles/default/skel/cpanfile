@@ -13,7 +13,7 @@ requires 'perl', '5.008005';
 # test      = test_requires
 
 on configure => sub {
-    requires 'Module::Build::Tiny', '0.030';
+    requires 'Module::Build::Tiny', '0.039';
 };
 
 on develop => sub {
@@ -21,9 +21,13 @@ on develop => sub {
     requires 'Pod::Wordlist';
     requires 'Test::Fixme';
     requires 'Test::Kwalitee';
+    requires 'Test::Kwalitee::Extra';
     requires 'Test::Spelling', '0.12';
+    requires 'Test::More', '0.96';
+    requires 'Test::Pod';
+    requires 'Test::Vars';
 };
 
 on test => sub {
-    requires 'Test::More', '0.88';
+    requires 'Test::More', '0.96';
 };
