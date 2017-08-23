@@ -2,6 +2,10 @@
 
 requires 'perl', '5.008005';
 
+requires 'Class::Accessor::Lite';
+requires 'Data::Validator';
+requires 'Log::Minimal';
+
 # requires 'Foo', '== 0.1';        # specific version
 # requires 'Foo', '0.1';           # minimum
 # requires 'Bar', '>= 0.1, < 0.4'; # min-max

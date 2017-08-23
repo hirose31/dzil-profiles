@@ -9,7 +9,7 @@ BEGIN {
 use strict;
 use warnings;
 use Test::More;
-eval { require Test::Kwalitee::Extra; Test::Kwalitee::Extra->import(qw(:experimental)); };
+eval { require Test::Kwalitee::Extra; Test::Kwalitee::Extra->import(qw(:experimental !meta_yml_has_repository_resource !prereq_matches_use !build_prereq_matches_use)); };
 #eval { require Test::Kwalitee::Extra; Test::Kwalitee::Extra->import(qw(:experimental !prereq_matches_use !build_prereq_matches_use)); };
 plan(skip_all => "Test::Kwalitee::Extra not installed: $@; skipping") if $@;
 
