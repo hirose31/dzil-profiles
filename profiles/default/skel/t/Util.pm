@@ -16,7 +16,7 @@ sub p($) {
     local $Data::Dumper::Useqq     = 1;
     local $Data::Dumper::Quotekeys = 0;
     my $d =  Dumper($_[0]);
-    $d    =~ s/\\x{([0-9a-z]+)}/chr(hex($1))/ge;
+    $d =~ s/\\x\{([0-9a-z]+)\}/chr(hex($1))/ge;
     print STDERR $d;
 }
 
